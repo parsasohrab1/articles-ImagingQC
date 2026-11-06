@@ -1,0 +1,105 @@
+{
+ "note": "real PneumoniaMNIST images; degradations are INJECTED; detector fitted on pristine train images",
+ "n_test": 624,
+ "classifier_accuracy_pristine": 0.844551282051282,
+ "false_rejection_pristine_test": 0.017628205128205128,
+ "accuracy_on_accepted_pristine": 0.8482871125611745,
+ "settings": {
+  "blur_0.7": {
+   "detection_rate": 0.5384615384615384,
+   "classifier_accuracy_no_qc": 0.8317307692307693,
+   "classifier_accuracy_on_accepted": 0.7673611111111112,
+   "accepted_share": 0.46153846153846156
+  },
+  "blur_1": {
+   "detection_rate": 0.9887820512820513,
+   "classifier_accuracy_no_qc": 0.8173076923076923,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.011217948717948718
+  },
+  "blur_1.5": {
+   "detection_rate": 1.0,
+   "classifier_accuracy_no_qc": 0.7756410256410257,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.0
+  },
+  "blur_2": {
+   "detection_rate": 1.0,
+   "classifier_accuracy_no_qc": 0.7163461538461539,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.0
+  },
+  "noise_0.03": {
+   "detection_rate": 0.28685897435897434,
+   "classifier_accuracy_no_qc": 0.8509615384615384,
+   "classifier_accuracy_on_accepted": 0.8382022471910112,
+   "accepted_share": 0.7131410256410257
+  },
+  "noise_0.06": {
+   "detection_rate": 0.9967948717948718,
+   "classifier_accuracy_no_qc": 0.844551282051282,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.003205128205128205
+  },
+  "noise_0.1": {
+   "detection_rate": 1.0,
+   "classifier_accuracy_no_qc": 0.8381410256410257,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.0
+  },
+  "noise_0.2": {
+   "detection_rate": 1.0,
+   "classifier_accuracy_no_qc": 0.8012820512820513,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.0
+  },
+  "low_contrast_0.7": {
+   "detection_rate": 0.04006410256410257,
+   "classifier_accuracy_no_qc": 0.7676282051282052,
+   "classifier_accuracy_on_accepted": 0.7729549248747913,
+   "accepted_share": 0.9599358974358975
+  },
+  "low_contrast_0.5": {
+   "detection_rate": 0.22435897435897437,
+   "classifier_accuracy_no_qc": 0.6810897435897436,
+   "classifier_accuracy_on_accepted": 0.6446280991735537,
+   "accepted_share": 0.7756410256410257
+  },
+  "low_contrast_0.3": {
+   "detection_rate": 0.9471153846153846,
+   "classifier_accuracy_no_qc": 0.625,
+   "classifier_accuracy_on_accepted": 0.15151515151515152,
+   "accepted_share": 0.052884615384615384
+  },
+  "brightness_0.1": {
+   "detection_rate": 0.030448717948717948,
+   "classifier_accuracy_no_qc": 0.8413461538461539,
+   "classifier_accuracy_on_accepted": 0.8413223140495868,
+   "accepted_share": 0.969551282051282
+  },
+  "brightness_0.2": {
+   "detection_rate": 0.23076923076923078,
+   "classifier_accuracy_no_qc": 0.8012820512820513,
+   "classifier_accuracy_on_accepted": 0.8458333333333333,
+   "accepted_share": 0.7692307692307693
+  },
+  "brightness_0.3": {
+   "detection_rate": 0.7532051282051282,
+   "classifier_accuracy_no_qc": 0.7355769230769231,
+   "classifier_accuracy_on_accepted": 0.8636363636363636,
+   "accepted_share": 0.2467948717948718
+  },
+  "occlusion_0.2": {
+   "detection_rate": 0.5833333333333334,
+   "classifier_accuracy_no_qc": 0.7932692307692307,
+   "classifier_accuracy_on_accepted": 0.6961538461538461,
+   "accepted_share": 0.4166666666666667
+  },
+  "occlusion_0.4": {
+   "detection_rate": 0.9967948717948718,
+   "classifier_accuracy_no_qc": 0.6762820512820513,
+   "classifier_accuracy_on_accepted": null,
+   "accepted_share": 0.003205128205128205
+  }
+ }
+}
